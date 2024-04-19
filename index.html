@@ -8,44 +8,45 @@ table {
 }
 
 th, td {
-  text-align: left;
   padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
 }
 
-tr:nth-child(even) {background-color: #f2f2f2;}
+tr:hover {background-color: coral;}
 </style>
 </head>
 <body>
 
-<h2>Striped Table</h2>
+<h2>Hoverable Table</h2>
 
-<p>For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table rows:</p>
+<p>Move the mouse over the table rows to see the effect.</p>
 
 <table>
   <tr>
-  <th>First Name</th>
-  <th>Last Name</th>
-  <th>Points</th>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Points</th>
   </tr>
   <tr>
-  <td>Diana</td>
-  <td>Cardenas</td>
-  <td>4+I</td>
+    <td>Diana</td>
+    <td>Cardenas</td>
+    <td>4*I</td>
   </tr>
   <tr>
-  <td>Lois</td>
-  <td>Griffin</td>
-  <td>$150</td>
+    <td>Lois</td>
+    <td>Griffin</td>
+    <td>$150</td>
   </tr>
   <tr>
-  <td>Joe</td>
-  <td>Swanson</td>
-  <td>$300</td>
+    <td>Joe</td>
+    <td>Swanson</td>
+    <td>$300</td>
   </tr>
   <tr>
-  <td>Cleveland</td>
-  <td>Brown</td>
-  <td>$250</td>
+    <td>Cleveland</td>
+    <td>Brown</td>
+    <td>$250</td>
   </tr>
 </table>
 
